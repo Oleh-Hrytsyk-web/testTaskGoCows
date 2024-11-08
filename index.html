@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Casino Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Online Casino Reviews</h1>
+        <div class="casino-header">
+            <h2 class="casino-header-title">All Casinos</h2>
+            <span class="casino-header-count">1,138 Casinos</span>
+        </div>
+        <div class="casino-list">
+        </div>
+        <button class="load-more">Load More Casinos (+5)</button>
+    </div>
+
+    <div class="popup-overlay" style="display: none;">
+        <div class="popup">
+            <div class="popup-arrow"></div>
+            <button class="close-popup">✖</button>
+            <h3 class="popup-title"></h3>
+            <div class="popup-promo-code"><span class="promo-code-value"></span></div>
+            <div class="popup-games">
+                <p>Games allowed:</p> <span class="games-allowed"></span>
+            </div>
+            <div class="popup-cash-out">
+                <p>Max cash out: </p> <span class="cash-out-value"></span>
+            </div>
+            <div class="popup-deposit">
+                <p>Min. deposit: </p><span class="deposit-value"></span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
