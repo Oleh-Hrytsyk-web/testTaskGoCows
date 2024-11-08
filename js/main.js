@@ -2,7 +2,6 @@ import { casinos } from './casinosData.js';
 import { generateStarsHTML } from './utils.js';
 import { openPopup } from './popup.js';
 
-
 const container = document.querySelector('.casino-list');
 let visibleCount = 4;
 const loadMoreCount = 5;
@@ -18,7 +17,7 @@ function renderCasinos() {
           ${casino.new ? '<span class="new-badge">NEW</span>' : ''}
           <h3 class="casino-name">${casino.name}</h3>
           <div class="casino-info">
-           <img src="images/${casino.country}.png" alt="${casino.country}" class="casino-country">
+           <img src="../images/${casino.country}.png" alt="${casino.country}" class="casino-country">
            <div class="casino-rating">${casino.rating}${generateStarsHTML(casino.rating)}</div>
           </div>
         </div>
