@@ -14,9 +14,8 @@ body {
 }
 
 .container {
-    width: 100%;
     width: 700px;
-    padding: 40 0px;
+    padding: 40px 0px;
 }
 
 .casino-header-title {
