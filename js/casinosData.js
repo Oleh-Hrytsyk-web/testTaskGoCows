@@ -13,7 +13,8 @@ export const casinos = [
         gamesAllowed: ["Slots", "Keno", "Scratch Cards", "Bingo"],
         maxCashOut: "$100",
         minDeposit: "FREE",
-        popupTitle: "20 Free Spins at 21 Dukes Casino"
+        popupTitle: "20 Free Spins at 21 Dukes Casino",
+        countryImg: "images/usa.png"
     },
     {
         id:2,
@@ -29,7 +30,8 @@ export const casinos = [
         gamesAllowed: ["Poker", "Slots", "Bingo"],
         maxCashOut: "$200",
         minDeposit: "$10",
-        popupTitle: "21 Dukes Casino Promo"
+        popupTitle: "21 Dukes Casino Promo",
+        countryImg: "images/usa.png"
     },
     {
         id:3,
@@ -45,7 +47,8 @@ export const casinos = [
         gamesAllowed: ["Blackjack", "Roulette"],
         maxCashOut: "$300",
         minDeposit: "$20",
-        popupTitle: "50 Free Spins at AC Casino"
+        popupTitle: "50 Free Spins at AC Casino",
+        countryImg: "images/usa.png"
     },
     {
         id:4,
@@ -61,7 +64,8 @@ export const casinos = [
         gamesAllowed: ["Slots", "Keno"],
         maxCashOut: "$150",
         minDeposit: "$5",
-        popupTitle: "Exclusive Bonus at All Irish Casino"
+        popupTitle: "Exclusive Bonus at All Irish Casino",
+        countryImg: "images/usa.png"
     },
     {
         id:5,
@@ -77,7 +81,8 @@ export const casinos = [
         gamesAllowed: ["Slots", "Roulette"],
         maxCashOut: "$100",
         minDeposit: "$15",
-        popupTitle: "50 Free Spins at AC Casino"
+        popupTitle: "50 Free Spins at AC Casino",
+        countryImg: "images/usa.png"
     },
     {
         id:6,
@@ -93,7 +98,8 @@ export const casinos = [
         gamesAllowed: ["Bingo", "Keno"],
         maxCashOut: "$250",
         minDeposit: "$25",
-        popupTitle: "70 FS for All Star Slots Casino Players"
+        popupTitle: "70 FS for All Star Slots Casino Players",
+        countryImg: "images/usa.png"
     },
     {
         id:7,
@@ -109,7 +115,8 @@ export const casinos = [
         gamesAllowed: ["Slots", "Keno", "Scratch Cards", "Bingo"],
         maxCashOut: "$100",
         minDeposit: "FREE",
-        popupTitle: "20 Free Spins at Sports Interaction Casino"
+        popupTitle: "20 Free Spins at Sports Interaction Casino",
+        countryImg: "images/usa.png"
     },
     {
         id:8,
@@ -125,7 +132,8 @@ export const casinos = [
         gamesAllowed: ["Poker", "Slots", "Keno"],
         maxCashOut: "$150",
         minDeposit: "$10",
-        popupTitle: "VIP Stakes Casino Exclusive Offer"
+        popupTitle: "VIP Stakes Casino Exclusive Offer",
+        countryImg: "images/usa.png"
     },
     {
         id:9,
@@ -141,6 +149,7 @@ export const casinos = [
         gamesAllowed: ["Bingo", "Roulette"],
         maxCashOut: "$200",
         minDeposit: "$20",
-        popupTitle: "Special Bonus at Jackpot Capital Casino"
+        popupTitle: "Special Bonus at Jackpot Capital Casino",
+        countryImg: "images/usa.png"
     }
 ];

@@ -17,7 +17,7 @@ function renderCasinos() {
           ${casino.new ? '<span class="new-badge">NEW</span>' : ''}
           <h3 class="casino-name">${casino.name}</h3>
           <div class="casino-info">
-           <img src="../images/${casino.country}.png" alt="${casino.country}" class="casino-country">
+           <img src="${casino.countryImg}" alt="${casino.country}" class="casino-country">
            <div class="casino-rating">${casino.rating}${generateStarsHTML(casino.rating)}</div>
           </div>
         </div>
